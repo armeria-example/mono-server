@@ -13,13 +13,14 @@ git pull origin main
 ./gradlew generateProto
 ```
 
+# test
 
-# basic webflux&coroutine endpoint
+### basic webflux test
 ```
 curl -XGET http://127.0.0.1:8081/api/v1/user
 ```
 
-# grpc(armeria) webflux&coroutine endpoint
+### grpc(armeria) webflux test
 ```
 curl -XPOST -H 'content-type: application/json; charset=utf-8; protocol=gRPC' 'http://127.0.0.1:8081/mono.idl.v1.user.UserService/RegisterUser' -d '{
   "loginId": "test",
