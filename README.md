@@ -16,12 +16,12 @@ git pull origin main
 
 # basic webflux&coroutine endpoint
 ```
-curl -XGET http://127.0.0.1:8080/api/v1/user
+curl -XGET http://127.0.0.1:8081/api/v1/user
 ```
 
 # grpc(armeria) webflux&coroutine endpoint
 ```
-curl -XPOST -H 'content-type: application/json; charset=utf-8; protocol=gRPC' 'http://127.0.0.1:8080/mono.idl.v1.user.UserService/RegisterUser' -d '{
+curl -XPOST -H 'content-type: application/json; charset=utf-8; protocol=gRPC' 'http://127.0.0.1:8081/mono.idl.v1.user.UserService/RegisterUser' -d '{
   "loginId": "test",
   "password": "test1"
 }'
