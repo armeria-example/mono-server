@@ -26,3 +26,8 @@ curl -XPOST -H 'content-type: application/json; charset=utf-8; protocol=gRPC' 'h
   "password": "test1"
 }'
 ```
+
+# info
+- [idl](https://github.com/armeria-example/mono-idl)
+- [server](https://github.com/armeria-example/mono-server)
+- [client](https://github.com/armeria-example/mono-client)
