@@ -1,3 +1,3 @@
-[submodule "mono-interface"]
-	path = mono-interface
-	url = https://github.com/armeria-example/mono-interface.git
+[submodule "mono-idl"]
+	path = mono-idl
+	url = https://github.com/armeria-example/mono-idl
